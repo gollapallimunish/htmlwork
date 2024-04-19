@@ -1,0 +1,29 @@
+<!--  GOLLAPALLI MUNESWARARAO -->
+<!--05/22/2023-->
+<!--  lab7 -->
+<html>
+<head>
+	<title></title>
+<script>
+function showimage(imgName) {
+          if (document.images) {
+	     //alert(imgname);
+	     document.images[0].src = eval(imgName + ".src");
+          }
+}
+if (document.images) {            
+           HOMER = new Image();      
+           HOMER.src = "HOMER.gif"; 
+           HIBBERT = new Image(); 
+           HIBBERT .src = "HIBBERT.gif";  
+}
+
+</script>
+
+<head>
+
+<body>
+<h1><a onmouseover="showimage('HOMER')" onmouseout="showimage('HIBBERT')">would you like a lollypop</a></h1>
+<img src="HIBBERT.gif">
+</body>
+</html>

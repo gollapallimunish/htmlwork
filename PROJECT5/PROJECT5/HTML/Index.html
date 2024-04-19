@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Event Management Website</title>
+
+<head>
+    <!-- TODO: Include Font Awesome file here -->
+    <!-- TODO: Include Google Fonts file here -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://unpkg.com/tailwindcss@2.2.4/dist/tailwind.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/fonts.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <script src="https://kit.fontawesome.com/843f31a33f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="header">
+       
+    
+        <!-- header includes buttons -->
+        <div class="flexButtons">
+            <div>
+                <button class="topButtons button" id="SIGN IN">Sign In</button>
+
+                <div id="ModalB" class="Modal">
+                    <div class="Modal-Content">
+                        <span class="close">X</span>
+                        <div class="signin-form">
+                            <form class="form">
+                                <h1 class="heading text-3xl font-medium">Welcome Back</h1>
+                                <hr>
+                                <label class="labelText">Username</label>
+                                <input type="text" placeholder="Enter Username" required>
+                                <label id="password1">Password</label>
+                                <input type="password" placeholder="Enter Password" required>
+                                <button class="submit-butt">Sign In</button>
+                                <div class="login-form">
+                                    <h4 class="login">
+                                        Not a member?
+                                    </h4>
+                                    <span>
+                                        <a class="SignUp" href="#">Sign Up</a>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div>
+                <button class="topButtons button" id="SIGN UP">Sign Up</button>
+                <div id="ModalA" class="Modal">
+                    <div class="Modal-Content">
+                        <span class="close">x</span>
+                        <div class="signup-form">
+                            <form class="form" id="form">
+                                <h1 class="heading text-3xl font-medium">Get&nbsp; Started</h1>
+                                <hr>
+                                <label class="labelText">Full Name</label>
+                                <input type="text" placeholder="Enter Full Name" required>
+                                <label class="labelText">Username</label>
+                                <input type="text" placeholder="Enter Username" required>
+                                <label id="password" class="labelText">Password</label>
+                                <input type="password" placeholder="Enter Password" required>
+                                <label class="labelText" id="confirm-password">Confirm password</label>
+                                <input type="password" placeholder="Confirm Password" required>
+                                <button class ="submit-butt">Sign Up</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             
+            <div class="bars ">
+                <a href="../HTML/Menu.html">
+                    <i class="fas fa-bars text-black"></i>
+                </a>
+            </div> 
+        
+        </div>
+         
+
+        <!--header content for logo and title-->
+        
+
+        
+
+    </div>
+    <a id="pageTitle" class="logo-title">Crystal</a>
+        <a id="pageTitle" class="logo-title">Events</a>
+        <p class="middleText">Plan_Prepare_Execute</p>
+
+    <!-- javascript for header and index -->
+    <script src="../Js/header.js"></script>
+
+    
+
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+.Header {
+    padding-left: 670px;
+    font-family: satisfy;
+    color: rgb(80, 80, 4);
+}
+
+.marr {
+    width: 100%;
+    height: 55vh;
+    filter: blur(1px);
+    
+}
+
+.mar-0 {
+    width: 100%;
+    height: 55vh;
+}
+
+.mar-1 {
+    width: 32%;
+    height: 45vh;
+    margin-right: 0px;
+    float: left;
+}
+
+.about {
+    
+    margin-left: 750px;
+    color: rgb(88, 88, 14);
+    font-family: cursive;
+}
+
+.para {
+    margin-top: 30px;
+    margin-left: 750px;
+    margin-right: 15px;
+}
+
+
+.paras {
+    margin-top: 10px;
+    margin-left: 750px;
+    margin-right: 5px;
+}
+
+.parag {
+    margin-top: 10px;
+    margin-left: 750px;
+    margin-right: 20px;
+}
+
+.tick {
+    margin-top: 10px;
+    margin-left: 750px;
+}
+
+.slider {
+    height: 40vh;
+    background-color: rgb(105, 80, 12);
+    width: 50%;
+    float: right;
+}
+
+.What {
+    font-family: satisfy;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.Goback {
+    background-color: white;
+    border: 2px solid black;
+    color: rgb(95, 67, 7);
+    padding: 10px 40px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 200px;
+    cursor: pointer;
+}
+
+.butt {
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+.butto {
+    
+   
+    float: right;
+
+}
+
+.container {
+    
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}

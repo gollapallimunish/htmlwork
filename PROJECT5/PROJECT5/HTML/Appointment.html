@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Event Management Website</title>
+
+<head>
+    <!-- TODO: Include Font Awesome file here -->
+    <!-- TODO: Include Google Fonts file here -->
+    <meta charset="utf-8">
+    <link href="https://unpkg.com/tailwindcss@2.2.4/dist/tailwind.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../CSS/fonts.css">
+    <link rel="stylesheet" href="../CSS/appoint.css">
+    <script src="https://kit.fontawesome.com/843f31a33f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- <form>
+        <fieldset>
+            <legend> Book Appointment</legend>
+            <label>Name
+                <input type="text" name="name" required>
+            </label>
+            <div class="two-cols">
+                <label>
+                    Email Address
+                    <input type="email" name="email" required>
+                </label>
+                <label>
+                    Phone number
+                    <input type="tel" name="phone">
+                </label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Appointmeent request</legend>
+            <div class="two-cols">
+                <label>Date
+                    <input type="date" name="Appointment request" required>
+
+                </label>
+                <div class="inline">
+                    <label>
+                        <input type="hidden" name="Morning desired" value="no">
+                        <input type="checkbox" name="Afternoon desired" value="yes">
+                        Afternoon
+                    </label>
+                </div>
+
+            </div>
+            <p>Confirmation request by</p>
+            <div class="inline">
+                <label>
+                    <input type="radio" name="Confirmation requested by" value="email" checked>
+                    Email
+                </label>
+                <label>
+                    <input type="radio" name="Confirmation requested by" value="phone">
+                    Phone call
+                </label>
+            </div>
+        </fieldset>
+        <div class="btns">
+            <input type="text" name="_gotcha" value=""  style="display: none;">
+            <input type="submit" value="Submit request">
+        </div>
+    </form>  -->
+<div>
+    <div class="butt">
+        <a href="../HTML/Menu.html">
+            <button class="Goback rounded-lg px-3 py-2">Our Services</button>
+    </a>
+</div>
+        <div class="modalcontent-posts">
+            <div class="Createposts-form">
+                <form class="form ">
+                    <h1 class="heading text-4xl">Book&nbsp; Appointment</h1>
+                    <hr>
+                    <label class="labelText text-xl ">Name</label>
+                    <input type="text" class="Title-create bg-white" placeholder="Full name" required>
+                    
+                    <label class="labelText text-xl">Email Address</label>
+                    <pre><input type="email" class="Tit-create bg-white"  placeholder="eg. abc@gmail.com" required></pre>
+                    <label class="labelText text-xl">Phone Number</label>
+                    <pre><input type="tel" class="Tit-create bg-white" placeholder="eg. 2148694151" required></pre>  
+                    </div>
+                    <br>
+                    <h4 class="text-2xl font-bold pb-2">Appointment request</h4>
+                    <br>
+                    <label class="text-xl">Date</label>
+                    <pre><input type="date" class="Tit-create bg-white" required></pre>
+                    <div class="inline text-xl">
+                        <label>
+                            <input type="radio" name="Confirmation requested by" value="email" checked>
+                            Morning
+                        </label>
+                        <label>
+                            <input type="radio" name="Confirmation requested by" value="phone">
+                            Afternoon
+                        </label>
+                    </div>
+                    <br>
+                    <h4 class="text-2xl font-bold pb-4 pt-4">Confirmation request by</h4>
+                    <div class="inline text-xl">
+                        <label>
+                            <input type="checkbox" name="Confirmation requested by" value="email" checked>
+                            Email
+                        </label>
+                        <label>
+                            <input type="checkbox" name="Confirmation requested by" value="phone">
+                            Phone call
+                        </label>
+                    </div>
+                    <div class="flex flex-row-reverse">
+                        <button class="Sub-re rounded-lg">Submit request</button>
+                    </div>
+                    </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

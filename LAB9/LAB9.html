@@ -1,0 +1,40 @@
+
+<!-- Gollapalli Muneswararao -->
+<!-- 06/05/2023	-->
+<!--  lab9 -->
+<html>
+<head>
+	<title></title>
+        <script>
+      function validate_form(thisform){
+         if (thisform.fname.value=="")
+	 {
+	   return false;
+         } 
+	 else if (thisform.lname.value=="")
+	 {
+		return false;
+	 }
+	 else
+	   return true;
+      }
+    </script>
+
+
+</head>
+
+<body>
+    <form  
+          action="http://webcsd.sacredheart.edu/randallj/cs553sp14/display_form_data.asp" 	  
+          method="post">
+      First Name:<input type="text" value="" name="fname" /><br />
+      Last Name:<input type="text" value="" name="lname" /><br />
+      <input type="Submit" 
+onsubmit="return validate_form(this)">
+    </form>
+
+
+
+</body>
+</html>
+
